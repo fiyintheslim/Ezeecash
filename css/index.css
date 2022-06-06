@@ -63,6 +63,10 @@ header .download {
   font-weight: 500;
 }
 
+section {
+  position: relative;
+}
+
 .heading {
   font-size: 3.402rem;
   font-weight: 700;
@@ -139,6 +143,13 @@ header .download {
   padding: 0.4rem 1rem;
   font-size: 1.512rem;
   background: rgba(255, 255, 255, 0);
+}
+
+.three-circles {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=index.css.map */
