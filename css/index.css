@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+header {
+  margin: 0 auto;
+  width: 75.6rem;
+  border-radius: 1.26rem;
+  padding: 0.063rem;
+  margin-top: 3.15rem;
+  height: 4.914rem;
+  font-size: 1.512rem;
+  background: linear-gradient(91.28deg, rgba(190, 145, 246, 0.35) 32.38%, rgba(190, 145, 246, 0) 61.59%);
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(91.28deg, #E5E5E5 32.38%, rgba(190, 145, 246, 0) 61.59%);
+  border-radius: 1.26rem;
+}
+header .logo {
+  flex-grow: 1;
+  font-weight: 500;
+  margin-left: 2.142rem;
+}
+header nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .nav__item {
+  cursor: pointer;
+}
+header .download {
+  background: #BE91F6;
+  border-radius: 1.008rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.339rem;
+  width: 16.38rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=index.css.map */
