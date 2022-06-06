@@ -1,3 +1,4 @@
+@import "mixins";
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,6 +6,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: #E5E5E5
+    background: #E5E5E5; 
 }
+header, main{
+    @include toRem(width, 1200);
+    margin: 0 74px;
+
+    @media only screen and (min-width: 1248px){
+        margin: 0 auto;
+    }
+}
+
 @import "header.scss";
+@import "sections.scss";

@@ -1,3 +1,4 @@
 @mixin toRem($property, $value){
     #{$property}: #{($value * 0.063)}rem
 }
+$purple:#BE91F6;
