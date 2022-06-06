@@ -243,4 +243,8 @@ section {
   font-size: 1.008rem;
 }
 
+.radial {
+  background: radial-gradient(11.5rem, #BE91F6, rgba(255, 255, 255, 0));
+}
+
 /*# sourceMappingURL=index.css.map */

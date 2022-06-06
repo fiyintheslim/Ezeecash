@@ -161,3 +161,6 @@ section{
 .feedback__message{
     @include toRem(font-size, 16);
 }
+.radial{
+    background: radial-gradient(11.5rem, $purple, rgba(255, 255, 255, 0));
+}
