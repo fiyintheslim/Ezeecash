@@ -114,4 +114,31 @@ header .download {
   color: #fff;
 }
 
+.btn--subscribe {
+  width: 6.741rem;
+  height: 2.961rem;
+  font-size: 1.008rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 1rem;
+}
+
+.email-form {
+  width: 37.8rem;
+  height: 4.284rem;
+  position: relative;
+}
+
+.email-input {
+  width: 100%;
+  height: 100%;
+  border: solid 1px #BE91F6;
+  border-radius: 1.008rem;
+  padding: 0.4rem 1rem;
+  font-size: 1.512rem;
+  background: rgba(255, 255, 255, 0);
+}
+
 /*# sourceMappingURL=index.css.map */
