@@ -1,6 +1,7 @@
 @import "mixins";
 section{
     position: relative;
+    @include toRem(margin-bottom, 150);
 }
 .heading{
     @include toRem(font-size, 54);
@@ -76,4 +77,35 @@ section{
     left:0;
     bottom:0;
     z-index: -1;
+}
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-2{
+    @include toRem(font-size, 36);
+    font-weight: 500;
+    @include toRem(margin-bottom, 55)
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card{
+    @include toRem(border-radius, 40);
+    display: flex;
+    flex-direction: column;
+    @include toRem(width, 320);
+    align-items: center;
+    border: solid 1px $purple;
+    
+    img{
+        // @include toRem(width, 300);
+        width: 100%;
+        @include toRem(height, 350);
+        object-fit: cover;
+        @include toRem(border-radius, 40);
+    }
 }
