@@ -6,11 +6,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: #E5E5E5; 
+    background: #E5E5E5;
+    min-width: 1400px
 }
 header, main{
     @include toRem(width, 1200);
-    margin: 0 74px;
+    margin: 0 auto;
 
     @media only screen and (min-width: 1248px){
         margin: 0 auto;

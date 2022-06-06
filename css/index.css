@@ -7,11 +7,12 @@
 
 body {
   background: #E5E5E5;
+  min-width: 1400px;
 }
 
 header, main {
   width: 75.6rem;
-  margin: 0 74px;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 1248px) {
   header, main {
@@ -186,6 +187,8 @@ section {
   height: 22.05rem;
   object-fit: cover;
   border-radius: 2.52rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .card__info {
@@ -201,17 +204,43 @@ section {
 .feedback-section {
   background: #F5EFFC;
   border-radius: 1.89rem;
+  padding: 3.402rem;
 }
 
 .feedback-section__heading {
   text-align: center;
-  margin: 80px 0px 50px;
+  margin: 0px 0px 50px;
 }
 
 .feedback-container {
   display: grid;
   grid-template: 172px 172px/546px 546px;
   justify-content: center;
+  column-gap: 5.292rem;
+  row-gap: 2.142rem;
+}
+
+.feedback-card {
+  display: flex;
+  align-items: center;
+  background: #FBFBFB;
+  border-radius: 1.89rem;
+  padding: 1.5rem;
+  font-weight: 400;
+}
+
+.feedback {
+  margin-left: 1.26rem;
+}
+
+.feedback__author {
+  font-size: 1.26rem;
+  font-weight: 400;
+  margin-bottom: 0.252rem;
+}
+
+.feedback__message {
+  font-size: 1.008rem;
 }
 
 /*# sourceMappingURL=index.css.map */
