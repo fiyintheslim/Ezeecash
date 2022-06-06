@@ -1,7 +1,7 @@
 @import "mixins";
 section{
     position: relative;
-    @include toRem(margin-bottom, 150);
+    @include toRem(margin-bottom, 90);
 }
 .heading{
     @include toRem(font-size, 54);
@@ -75,7 +75,7 @@ section{
 .three-circles{
     position: absolute;
     left:0;
-    bottom:0;
+    bottom:-180px;
     z-index: -1;
 }
 .card-section{
@@ -100,6 +100,8 @@ section{
     @include toRem(width, 320);
     align-items: center;
     border: solid 1px $purple;
+    background: white;
+    box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.4);
     
     img{
         // @include toRem(width, 300);
@@ -108,4 +110,28 @@ section{
         object-fit: cover;
         @include toRem(border-radius, 40);
     }
+}
+.card__info{
+    margin: 2rem 0;
+    text-align: center;
+}
+.card__name{
+
+}
+.card__position{
+    @include toRem(font-size, 18);
+    text-align: center;
+}
+.feedback-section{
+    background: #F5EFFC;
+    @include toRem(border-radius, 30);
+}
+.feedback-section__heading{
+    text-align: center;
+    margin: 80px 0px 50px;
+}
+.feedback-container{
+    display: grid;
+    grid-template: 172px 172px / 546px 546px;
+    justify-content: center;
 }

@@ -65,7 +65,7 @@ header .download {
 
 section {
   position: relative;
-  margin-bottom: 9.45rem;
+  margin-bottom: 5.67rem;
 }
 
 .heading {
@@ -149,7 +149,7 @@ section {
 .three-circles {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -180px;
   z-index: -1;
 }
 
@@ -178,12 +178,40 @@ section {
   width: 20.16rem;
   align-items: center;
   border: solid 1px #BE91F6;
+  background: white;
+  box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.4);
 }
 .card img {
   width: 100%;
   height: 22.05rem;
   object-fit: cover;
   border-radius: 2.52rem;
+}
+
+.card__info {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.card__position {
+  font-size: 1.134rem;
+  text-align: center;
+}
+
+.feedback-section {
+  background: #F5EFFC;
+  border-radius: 1.89rem;
+}
+
+.feedback-section__heading {
+  text-align: center;
+  margin: 80px 0px 50px;
+}
+
+.feedback-container {
+  display: grid;
+  grid-template: 172px 172px/546px 546px;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
